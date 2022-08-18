@@ -5,7 +5,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(image/game.jfif);
+  font-family: "East Sea Dokdo", cursive;
+  background-image: url(https://www.urbanbrush.net/web/wp-content/uploads/edd/2021/03/urbanbrush-20210323201400609608.jpg);
 }
 
 .container {
@@ -13,6 +14,7 @@ body {
   background-color: rgba(219, 219, 219, 0.8);
   border-radius: 20px;
   text-align: center;
+  padding: 0px 150px;
 }
 
 .btn {
@@ -25,10 +27,74 @@ body {
 }
 
 .title {
-  font-size: 100px;
+  font-size: 120px;
   font-weight: bold;
+  margin-bottom: -40px;
 }
 
 .sub-title {
-  font-size: 50px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.main-img {
+  height: 400px;
+  width: 400px;
+}
+
+.btn-play {
+  color: white;
+  background-color: green;
+}
+
+.btn-reset {
+  margin-top: -5px;
+  height: 80px;
+  background-color: yellow;
+}
+
+.form-control {
+  height: 80px;
+  width: 450px;
+  font-size: 3vw;
+  margin-right: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 48rem) {
+  .title {
+    font-size: 12vw;
+  }
+  .sub-title {
+    font-size: 11vw;
+  }
+  .text {
+    font-size: 6vw;
+  }
+  .sub-text {
+    font-size: 4vw;
+  }
+  .form-control {
+    font-size: 6vw;
+    max-width: 450px;
+    margin-right: 0px;
+  }
+  .main-img {
+    width: 40vw;
+  }
+  .btn-reset {
+    font-size: 3vw;
+    width: 80px;
+    height: 60px;
+  }
 }

@@ -5,16 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game-numberGuess</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h1 class="title">술 게 임</h1>
       <h1 class="sub-title">업 & 다운</h1>
-      <img src="" />
-      <div id="result-area">숫자를 맞춰라</div>
-      <div id="chance-area">남은 기회 :</div>
-      <input type="number" id="user-input" />
+
+      <img
+        src="https://t1.daumcdn.net/cfile/blog/99BF9D345ABA8C5811"
+        class="main-img"
+      />
+
+      <div id="result-area" class="text">숫자를 맞춰라</div>
+
+      <div id="chance-area" class="text sub-text">남은 기회 :</div>
+
+      <input
+        type="number"
+        id="user-input"
+        class="form-control mb-10"
+        placeholder="1부터 100까지 숫자를 입력"
+      />
+
       <button id="play-button" class="btn btn-play">Go!</button>
     </div>
     <button id="reset-button" class="btn btn-reset">리셋!</button>
